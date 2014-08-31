@@ -1,11 +1,22 @@
-Java Core
-===================
+# Java Core
 
-This repository will contain all the codes for the Java Core course by http://www.golovachcourses.com
-See http://www.golovachcourses.com for more information.
+This repository will contain all the codes for the Java Core course by [Ivan Golovach](http://www.youtube.com/user/GolovachCourses)
+See [here](http://www.golovachcourses.com) and [Video Tutorials](http://www.youtube.com/user/KharkovITCourses/featured) for more information.
+
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/VJHE3j2KHXk/0.jpg)](http://www.youtube.com/watch?v=http://img.youtube.com/vi/VJHE3j2KHXk/0.jpg)
 
 Contributor
-Lepeev Pavel ru.linkedin.com/pub/pavel-lepeev/18/305/b11/
+===========
+Lepeev Pavel `ru.linkedin.com/pub/pavel-lepeev/18/305/b11/`
+
+
+**test**
+sefskxjhv kvh dxk
+
+Changelog
+------------
+
+Codes with labs and test for each of below lessons:
 
 1. Основы Java
     1.1. Терминология

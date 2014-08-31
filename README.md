@@ -22,8 +22,8 @@ Codes with labs and test for each of below lessons:
 2. ksdjfh sdkjf 
 3. sdlkf jsdfk 
 4. sfdsd f
-⋅⋅1.1. Ordered sub-list
-⋅⋅1.2. Ordered sub-list
+  1.1. Ordered sub-list
+  1.2. Ordered sub-list
 5. fsd sd sf 
 
 

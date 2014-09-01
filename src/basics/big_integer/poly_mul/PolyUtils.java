@@ -3,6 +3,15 @@ package basics.big_integer.poly_mul;
 import java.math.BigInteger;
 
 public class PolyUtils {
+
+    /**
+     *
+     * Return the product of 2 polynomials, i.e. (x+1) * (x+1)
+     * @param x - BigInteger array
+     * @param y - BigInteger array
+     * @return  - BigInteger array
+     * {@link http://stackoverflow.com/questions/21717426/converting-whole-program-from-int-to-biginteger}
+     */
     public static BigInteger[] mul(BigInteger[] x, BigInteger[] y) {
 
         BigInteger[] result = new BigInteger[degree(x) + degree(y) + 1];
@@ -19,8 +28,13 @@ public class PolyUtils {
 
     }
 
-    /** Return the degree of this polynomial (0 for the constant polynomial). */
-    public static int degree(BigInteger[] coef) {
+    /**
+     *
+     * Return the degree of this polynomial (0 for the constant polynomial).
+     * @param coef - BigInteger array
+     * @return     - degree of this polynomial
+     */
+     public static int degree(BigInteger[] coef) {
         int d = 0;
         for (int i = 0; i < coef.length; i++)
             if (coef[i] != BigInteger.valueOf(0)) d = i;

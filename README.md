@@ -1,6 +1,6 @@
 # Java Core
 
-This repository will contain all the codes for the Java Core course by [Ivan Golovach](http://www.youtube.com/user/GolovachCourses)
+This repository will contain all the codes with minor comments for the Java Core course by [Ivan Golovach](http://www.youtube.com/user/GolovachCourses)
 
 See [here](http://www.golovachcourses.com) and [Video Tutorials](http://www.youtube.com/user/KharkovITCourses/featured) for more information.
 

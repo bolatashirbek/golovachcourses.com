@@ -85,15 +85,15 @@ The project licensed under the [Apache-2.0 license](http://opensource.org/licens
   
   
   Task List (labs):
-  - [ ] 1.3 labs are in progress
+  - [x] 1.3 labs completed
   - [x] basics.control_flow.AxA_plus_BxB.MathUtils
   - [x] basics.bits.shift.left.IntegerUtils
-  - [x] basics.bits.swap.BitUtils ? 
-  - [ ] basics.bits.packed.PackedFlagArray
-  - [ ] basics.big_integer.fraction.FractionUtils
-  - [ ] basics.big_integer.toBinaryString.BigIntegerUtils
-  - [ ] basics.big_integer.poly_eval.PolyUtils
-  - [ ] basics.big_integer.poly_mul.PolyUtils
+  - [x] basics.bits.swap.BitUtils
+  - [x] basics.bits.packed.PackedFlagArray
+  - [x] basics.big_integer.fraction.FractionUtils
+  - [x] basics.big_integer.toBinaryString.BigIntegerUtils
+  - [x] basics.big_integer.poly_eval.PolyUtils
+  - [x] basics.big_integer.poly_mul.PolyUtils
   
   - [ ] 1.4 labs...
   

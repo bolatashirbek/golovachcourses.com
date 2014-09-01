@@ -16,9 +16,9 @@ public class PackedFlagArray64 {
             throw new IllegalArgumentException();
         }
         if (value) {
-            data = data | (1L << index);
+            data = data | (1L << index); // set bit to '1'
         } else {
-            data = data & ~(1L << index);
+            data = data & ~(1L << index); // set bit to '0'
         }
     }
 

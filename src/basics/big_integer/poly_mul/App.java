@@ -1,5 +1,7 @@
 package basics.big_integer.poly_mul;
 
+import java.math.BigInteger;
+
 /**
  * Предположим, что мы работаем с полиномами и храним их в виде последовательности коэффициентов. То есть полином
  * f = 1 * x*x*x + 2*x*x + 3*x + 4
@@ -46,6 +48,26 @@ public class App {
 
     public static void main(String[] args) {
 
+        BigInteger[] polynom1 = new BigInteger[] {
+                new BigInteger("10"),
+                new BigInteger("0"),
+                new BigInteger("1")
+        };
+        BigInteger[] polynom2 = new BigInteger[] {
+                new BigInteger("-1"),
+                new BigInteger("0")
+        };
+
+        BigInteger[] result = PolyUtils.mul(polynom1, polynom2);
+
+        System.out.print("[");
+        for (int i = 0; i < result.length; i++) {
+            System.out.print(result[i]);
+            if (i<result.length-1)
+                System.out.print(", ");
+        }
+        System.out.print("]");
 
     }
+
 }

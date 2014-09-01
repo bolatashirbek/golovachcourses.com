@@ -1,5 +1,7 @@
 package basics.big_integer.poly_eval;
 
+import java.math.BigInteger;
+
 /**
  * Предположим, что мы работаем с полиномами и храним их в виде последовательности коэффициентов. То есть полином
  * f = 1 * x*x*x + 2*x*x + 3*x + 4
@@ -36,6 +38,19 @@ package basics.big_integer.poly_eval;
 public class App {
 
     public static void main(String[] args) {
+
+        BigInteger[] polynom = new BigInteger[] {
+            new BigInteger("2"),
+            new BigInteger("0"),
+            new BigInteger("-3"),
+            new BigInteger("0")
+        };
+
+        BigInteger num = new BigInteger("100");
+
+        BigInteger result = PolyUtils.eval(polynom, num);
+
+        System.out.println(result);
 
     }
 

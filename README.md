@@ -95,7 +95,14 @@ The project licensed under the [Apache-2.0 license](http://opensource.org/licens
   - [x] basics.big_integer.poly_eval.PolyUtils
   - [x] basics.big_integer.poly_mul.PolyUtils
   
-  - [ ] 1.4 labs...
+  - [ ] 1.4 labs 
+  - [x] basics.arrays.maxlen_pos_segment_left
+  - [ ] basics.arrays.maxlen_pos_segment_right
+  - [ ] basics.array.rotate_2D
+  - [ ] basics.arrays.maxarea_pos_rect
+  - [ ] basics.array.rotate_3D
+  - [ ] basics.strings.chars_shift
+  
   
   
  

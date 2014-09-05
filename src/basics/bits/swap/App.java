@@ -17,7 +17,7 @@ public class App {
 
         byte result = BitUtils.swapBits(b, 0, 6);
         printByteInBinary(result);
-
+        
     }
 
     /**

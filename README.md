@@ -97,11 +97,11 @@ The project licensed under the [Apache-2.0 license](http://opensource.org/licens
   
   - [ ] 1.4 labs 
   - [x] basics.arrays.maxlen_pos_segment_left
-  - [ ] basics.arrays.maxlen_pos_segment_right
-  - [ ] basics.array.rotate_2D
-  - [ ] basics.arrays.maxarea_pos_rect
+  - [x] basics.arrays.maxlen_pos_segment_right
+  - [x] basics.array.rotate_2D
+  - [x] basics.arrays.maxarea_pos_rect
   - [ ] basics.array.rotate_3D
-  - [ ] basics.strings.chars_shift
+  - [x] basics.strings.chars_shift
   
   
   

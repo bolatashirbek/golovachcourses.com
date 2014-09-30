@@ -1,14 +1,8 @@
 # Java Core
 
-This repository will contain all the codes with minor comments for the Java Core course by [Ivan Golovach](http://www.youtube.com/user/GolovachCourses)
+This repository will contain all the codes with minor comments for the Java Core
 
 See [here](http://www.golovachcourses.com) and [Video Tutorials](http://www.youtube.com/user/KharkovITCourses/featured) for more information.
-
-[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/VJHE3j2KHXk/0.jpg)](http://www.youtube.com/watch?v=http://img.youtube.com/vi/VJHE3j2KHXk/0.jpg)
-
-## Contributor
-Lepeev Pavel `ru.linkedin.com/pub/pavel-lepeev/18/305/b11/`
-
 
 Changelog
 ------------
@@ -44,7 +38,7 @@ Codes with labs and test for each of below lessons:
   3. JMM, volatile
   4. synchronized, wait/notify
   5. interrupt(), stop(), destroy()
-  6. java.util.concurrent.*
+  6. java.util.concurrent.
 6. **Коллекции**
   1. O-нотация
   2. Базовая иерархия (Collection, Set, List, Map)
@@ -77,14 +71,10 @@ Codes with labs and test for each of below lessons:
   4. Функциональные алгоритмы
   
   
-License
-=======
-The project licensed under the [Apache-2.0 license](http://opensource.org/licenses/Apache-2.0)
-
   
   
   
-  Task List (labs):
+  Labs:
   - [x] 1.3 labs completed
   - [x] basics.control_flow.AxA_plus_BxB.MathUtils
   - [x] basics.bits.shift.left.IntegerUtils

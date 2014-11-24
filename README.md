@@ -92,6 +92,37 @@ Codes with labs and test for each of below lessons:
   - [x] basics.arrays.maxarea_pos_rect
   - [ ] basics.array.rotate_3D
   - [x] basics.strings.chars_shift
+
+  - [x] 2.1 labs
+  - [x] proc.loop.array_inverter_optimized
+  - [x] proc.loop.array_merger_fixed
+  - [x] proc.loop.bubble_sort_inverted
+  - [x] proc.loop.selection_sort_optimized
+  - [x] proc.loop.insertion_sort_optimized
+  - [x] proc.loop.matrix_mul
+
+
+  - [x] 2.2 labs
+  - [x] proc.recursion.hanoi_tower
+  - [x] proc.recursion.permutation
+  - [x] proc.recursion.parser
+
+  - [ ] 2.4 labs
+  - [x] proc.dyn.single_lib_addLast
+  - [x] proc.dyn.single_lib_removeLast
+  - [x] proc.dyn.single_lib_insertInPosition
+  - [x] proc.dyn.single_lib_removeInPosition
+  - [ ] proc.dyn.double_lib_addLast
+  - [ ] proc.dyn.double_lib_removeLast
+  - [ ] proc.dyn.double_lib_insertInPosition
+  - [ ] proc.dyn.double_lib_removeInPosition
+  - [ ] proc.dyn.fibonacci_tree_generateArg
+  - [ ] proc.dyn.fibonacci_tree_generateRes
+  - [ ] proc.dyn.tree_isSearchTree
+  - [ ] proc.dyn.tree_add
+
+
+
   
   
   

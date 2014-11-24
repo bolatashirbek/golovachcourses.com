@@ -1,8 +1,5 @@
 package proc.loop.matrix_nui;
 
-import java.util.Arrays;
-
-
 public class MatrixUtils {
 	
 	public static boolean checkMatrix(int[][] fst) {
@@ -10,15 +7,15 @@ public class MatrixUtils {
     	int tmp = fsize;
     	boolean flag = false;
     	for (int i = 0; i < fst.length; i++) {
-    		
+
     		fsize = fst[i].length;
     		if (tmp != fsize) {
     			flag = true;
     			break;
     		}
-    		
-    	}	
-    	
+
+    	}
+
     	return flag;
 	}
 	
@@ -66,8 +63,8 @@ public class MatrixUtils {
     			
         		for (int k=0; k < fst[0].length; k++) {
         			
-        			 System.out.println("i = " + i + ", j = " + j);
-        			 System.out.println("k = " + k);
+        			 //System.out.println("i = " + i + ", j = " + j);
+        			 //System.out.println("k = " + k);
         			 //System.out.println("fst[" + i + "][" + k + "]= " + fst[i][k]);
         			 //System.out.println("snd[" + k + "][" + j + "]= " + snd[k][j]);
 
@@ -83,7 +80,7 @@ public class MatrixUtils {
         				 
         			 }
         			 
-        			 System.out.println(Arrays.deepToString(result));
+        			// System.out.println(Arrays.deepToString(result));
         			 
         		}
         		

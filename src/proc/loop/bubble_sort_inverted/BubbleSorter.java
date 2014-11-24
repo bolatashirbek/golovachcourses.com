@@ -3,13 +3,13 @@ package proc.loop.bubble_sort_inverted;
 public class BubbleSorter {
     public static void sort(int[] arr) {
         for (int barrier = arr.length - 1; barrier >= 0; barrier--) {
-            for (int index = 0; index < barrier; index++) {
-                if (arr[index] > arr[index + 1]) {
-                    int tmp = arr[index];
-                    arr[index] = arr[index + 1];
-                    arr[index + 1] = tmp;
+                for (int index = 0; index < barrier; index++) {
+                    if (arr[index] > arr[index + 1]) {
+                        int tmp = arr[index];
+                        arr[index] = arr[index + 1];
+                        arr[index + 1] = tmp;
+                    }
                 }
-            }
         }
     }
     public static void sort2(int[] arr) {

@@ -112,7 +112,7 @@ Codes with labs and test for each of below lessons:
   - [x] proc.dyn.single_lib_removeLast
   - [x] proc.dyn.single_lib_insertInPosition
   - [x] proc.dyn.single_lib_removeInPosition
-  - [ ] proc.dyn.double_lib_addLast
+  - [x] proc.dyn.double_lib_addLast
   - [ ] proc.dyn.double_lib_removeLast
   - [ ] proc.dyn.double_lib_insertInPosition
   - [ ] proc.dyn.double_lib_removeInPosition

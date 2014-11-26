@@ -4,7 +4,7 @@ public class SingleUtils {
 
     public static Node insertInPosition(Node tail, int index, int value) {
 
-        Node head = tail; // сохраним ссылку на "голову" списка
+        Node head = tail; // сохраним ссылку на "голову" списка.
 
         // позиция элемента списка
         int k = 0;

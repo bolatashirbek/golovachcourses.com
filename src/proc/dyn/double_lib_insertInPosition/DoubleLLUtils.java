@@ -1,7 +1,51 @@
 package proc.dyn.double_lib_insertInPosition;
 
-/**
- * Created by p.lepeev on 26.11.14.
- */
 public class DoubleLLUtils {
+
+    public static DoubleNode insertInPosition(DoubleNode tail, int index, int elem) {
+
+        DoubleNode head = tail; // сохраним ссылку на "голову" списка
+
+        // позиция элемента списка
+        int k = 0;
+
+        // если хотим вставить в начало
+        if (index == 0) {
+            DoubleNode tmp = tail;
+            tail = new DoubleNode(elem, null, tmp);
+            tail.next = tmp;
+            tail.prev = null;
+            tail.next.prev = tail;
+            return tail;
+        }
+
+        while (tail != null) {
+
+            if (k == index - 1 ) {
+                DoubleNode tmp = tail.next;
+                tail.next = new DoubleNode(elem, tmp, null);
+                tail.next.next = tmp;
+                break;
+            }
+
+            tail = tail.next;
+            k++;
+
+        }
+
+        return head;
+
+    }
+
+}
+
+class DoubleNode {
+    public int value;
+    public DoubleNode prev;
+    public DoubleNode next;
+    public DoubleNode(int value, DoubleNode prev, DoubleNode next) {
+        this.value = value;
+        this.prev = prev;
+        this.next = next;
+    }
 }

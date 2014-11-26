@@ -39,7 +39,7 @@ public class Test {
         DoubleNode ref = node0;*/
 
         DoubleNode ref = _(0, 1, 2, 3);
-        //System.out.println(toString(ref));
+        ////System.out.println(toString(ref));
 
         System.out.println(toString(DoubleLLUtils.addLast(ref, 5)));
 

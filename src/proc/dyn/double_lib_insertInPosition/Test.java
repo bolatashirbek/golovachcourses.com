@@ -17,6 +17,8 @@ public class Test {
 
         System.out.println(toString(DoubleLLUtils.insertInPosition(ref, 0, 1)));
 
+        //test();
+
     }
 
     public static DoubleNode _(int... values) {
@@ -44,6 +46,24 @@ public class Test {
             result += "null";
             return result;
         }
+    }
+
+    public static void test() {
+        // PREPARE
+        DoubleNode expected = _(1, 0, 2);
+        String expectedAsStr = toString(expected);
+        int insertionPosition = 1;
+        int newValue = 0;
+        DoubleNode beforeInsertion = _(1, 2);
+        // CALL
+        DoubleNode actual = DoubleLLUtils.insertInPosition(beforeInsertion, insertionPosition, newValue);
+        // CHECK
+        String actualAsStr = toString(actual);
+        if (!actualAsStr.equals(expectedAsStr)) {
+            throw new AssertionError("actual = '" + actualAsStr + "' but expected = '" + expectedAsStr + "'");
+        }
+
+        System.out.print("OK");
     }
 
 }

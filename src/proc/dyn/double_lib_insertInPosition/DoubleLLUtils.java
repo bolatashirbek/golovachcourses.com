@@ -22,9 +22,8 @@ public class DoubleLLUtils {
         while (tail != null) {
 
             if (k == index - 1 ) {
-                DoubleNode tmp = tail.next;
-                tail.next = new DoubleNode(elem, tmp, null);
-                tail.next.next = tmp;
+                tail.next = new DoubleNode(elem, tail, tail.next);
+                tail.next.next.prev = tail.next;
                 break;
             }
 

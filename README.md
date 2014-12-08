@@ -113,12 +113,12 @@ Codes with labs and test for each of below lessons:
   - [x] proc.dyn.single_lib_insertInPosition
   - [x] proc.dyn.single_lib_removeInPosition
   - [x] proc.dyn.double_lib_addLast
-  - [ ] proc.dyn.double_lib_removeLast
-  - [ ] proc.dyn.double_lib_insertInPosition
-  - [ ] proc.dyn.double_lib_removeInPosition
-  - [ ] proc.dyn.fibonacci_tree_generateArg
-  - [ ] proc.dyn.fibonacci_tree_generateRes
-  - [ ] proc.dyn.tree_isSearchTree
+  - [x] proc.dyn.double_lib_removeLast
+  - [x] proc.dyn.double_lib_insertInPosition
+  - [x] proc.dyn.double_lib_removeInPosition
+  - [x] proc.dyn.fibonacci_tree_generateArg
+  - [x] proc.dyn.fibonacci_tree_generateRes
+  - [x] proc.dyn.tree_isSearchTree
   - [ ] proc.dyn.tree_add
 
 

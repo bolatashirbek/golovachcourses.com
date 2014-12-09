@@ -22,7 +22,7 @@ public class TreeUtils {
 
         /* false if, recursively, the left or right is not a BST */
         if (!isSearchTree(root.left) || !isSearchTree(root.right))
-            return(false);
+            return false;
 
         /* passing all that, it's a BST */
         return true;

@@ -107,7 +107,7 @@ Codes with labs and test for each of below lessons:
   - [x] proc.recursion.permutation
   - [x] proc.recursion.parser
 
-  - [ ] 2.4 labs
+  - [x] 2.4 labs
   - [x] proc.dyn.single_lib_addLast
   - [x] proc.dyn.single_lib_removeLast
   - [x] proc.dyn.single_lib_insertInPosition
@@ -121,6 +121,8 @@ Codes with labs and test for each of below lessons:
   - [x] proc.dyn.tree_isSearchTree
   - [x] proc.dyn.tree_add
 
+  - [x] 3.1 labs
+  - [x] ex.try-catch-finally.atomic_tx
 
 
   

@@ -1,8 +1,13 @@
 # Java Core
 
-This repository will contain all the codes with minor comments for the Java Core
+This repository will contain all the codes with minor comments for the Java Core(Golovach Courses)
 
-See [here](http://www.golovachcourses.com) and [Video Tutorials](http://www.youtube.com/user/KharkovITCourses/featured) for more information.
+See [Java Core December 2013 AllinOne (Video Tutorials)](https://www.youtube.com/playlist?list=PLoij6udfBnciBZf7aLRmayAzcisWfAwOY) for more information.
+
+[Youtube channel KharkovITCourses](http://www.youtube.com/user/KharkovITCourses/)
+Web sites:
+http://www.golovachcourses.com
+http://kharkovitcourses.blogspot.com/
 
 Changelog
 ------------
